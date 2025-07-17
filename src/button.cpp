@@ -10,7 +10,6 @@
 #define BOTAO 7
 
 std::atomic<bool> leituraAtiva(false);
-std::atomic<bool> running(true);
 static unsigned long last_interrupt_time = 0;
 const long DEBOUNCE_MS = 200;
 

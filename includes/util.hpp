@@ -6,6 +6,5 @@
 
 void showWelcomeMessages();
 void showReadyMessage();
-bool checkCameraWarmUp(cv::VideoCapture& cap);
 
 #endif
